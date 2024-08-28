@@ -1,0 +1,29 @@
+body {
+    /* Set the background color of the page to a light gray */
+    background-color: #f0f0f0;
+    /* Set the font family to a sans-serif font */
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    /* Set the text color of the heading to a dark blue */
+    color: #2e4053;
+    /* Add some padding to the top and bottom of the heading */
+    padding: 20px;
+    /* Make the text bold */
+    font-weight: bold;
+    /* Set the font size to 36 pixels */
+    font-size: 36px;
+    /* Center the text horizontally */
+    text-align: center;
+  }
+  
+  h1::after {
+    /* Add a horizontal line after the heading */
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #2e4053;
+    margin-top: 10px;
+  }
